@@ -1,0 +1,24 @@
+<!DOCTYPE html1>
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Advinhe o número</title>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="estilos.css">
+	</head>
+	<body>
+		<header>
+			<h1 class="tituloPrincipal">Advinhe o número escolhido pelo computador!</h1>
+		</header>
+		<main>
+			<h2>Escolha seu número</h2>
+			<input type="text" id="n1" placeholder="Digite um número de 0 a 100" class="inserirNumeros"></input>
+			<button  onclick="verificarTentativa()" class="btoVerificar">Verificar resposta</button>
+			<div class="alertaDiv">
+				<p class="alerta"></p>
+			</div>
+		</main>
+	</body>
+	<script src="JS/geradorAleatorio.js"></script>
+</html>

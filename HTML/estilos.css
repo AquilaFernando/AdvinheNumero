@@ -1,0 +1,57 @@
+.tituloPrincipal {
+    font-size: 42px;
+    font-weight: bold;
+    color: blue;
+    text-align: center;
+    margin: 5px 0px 5px 0px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px 0px 5px 0px;
+}
+
+.btoVerificar{
+    width: 183px;
+    height: 50px;
+    text-align: center;
+    display: block;
+    padding: 5px;
+    margin: 0px 575px 0px 575px;
+}
+
+.inserirNumeros{
+    text-align: center;
+    display: inline-block;
+    padding: 5px;
+    margin: 0px 575px 0px 575px;
+}
+
+body {
+    background-color: rgb(153, 238, 210);
+}
+
+.menor {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px 0px 5px 0px;
+    color: green;
+}
+
+.maior {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px 0px 5px 0px;
+    color: red;
+}
+
+p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+}
